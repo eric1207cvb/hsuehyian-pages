@@ -1,147 +1,134 @@
 # AICalorieEstimator 隱私權政策 / Privacy Policy / プライバシーポリシー
-**最後更新｜Last Updated｜最終更新日：2025-11-19**  
+
+**最後更新｜Last updated｜最終更新日：2026-08-20**
 開發者｜Developer｜開発者：Hsueh Yi An  
-聯絡信箱｜Contact｜連絡先：eric1207cvb@msn.com  
+聯絡信箱｜Contact｜連絡先：eric1207cvb@msn.com
 
 ---
 
-# 📘 隱私權政策（繁體中文）
+# 隱私權政策（繁體中文）
 
-本頁說明 AICalorieEstimator（以下稱「本 App」）如何收集、使用、保護與分享你的資料。使用本 App 即表示你同意本政策之內容。
+本政策說明 AICalorieEstimator（以下稱「本 App」）目前如何處理資料。本 App 沒有註冊帳號功能，也不提供個人化廣告或跨 App／網站追蹤。
 
-## 1. 我們收集哪些資料
-- **使用者提供的影像**：當你使用拍照或相簿上傳功能時，本 App 會取得你選擇的照片，以進行食物與熱量分析。  
-- **裝置與使用資料**：為改善品質與偵錯，本 App 可能收集匿名化資訊（如作業系統版本、App 版本、基本操作事件）。  
-- **訂閱與交易資訊**：若你訂閱 Pro 方案，我們透過 Apple 的 App Store 與 RevenueCat 驗證收據與管理權益。本 App 不儲存信用卡資料。
+## 1. 資料來源與用途
 
-## 2. 我們如何使用資料
-- **影像分析**：你上傳的影像僅於伺服器與／或可信賴第三方 AI 服務（例如 OpenAI）中使用，用於食物辨識與熱量估算。  
-- **服務營運**：匿名化資料用於維護穩定、偵錯與功能改進。  
-- **訂閱管理**：依你的訂閱狀態判斷是否解鎖 Pro 功能。
+- **餐點影像與文字**：你主動拍攝或從相簿選擇的餐點照片，以及照片中裝置端辨識到的文字，會在你按下分析後傳送至本 App 的雲端分析 API，用於食物、份量與熱量估算。原始照片不會被本 App 寫入裝置上的飲食歷史；分析服務端及其受託 AI 供應商對請求資料的處理，依其服務與隱私政策進行。
+- **個人與健康脈絡**：你輸入的身高、體重、目標體重、性別、活動設定，以及你在 Apple Health 授權後讀取的步數、能量、運動／Workout、身體量測與其他你允許的健康指標，會用來計算目標、顯示趨勢與月曆。只有在你主動進行影像分析時，為產生較貼近你的分析結果，本 App 才會將分析所需的個人與活動脈絡一併傳送至雲端 API；不會因單純同步 Apple Health 而自動上傳全部健康資料。
+- **本機飲食與趨勢紀錄**：你確認儲存的餐點摘要、熱量、體重、步數、活動能量與運動分鐘數，儲存在你的裝置上，用於今日、週報、圖表與動能月曆。這些本機歷史資料最長保留三年，並會隨新資料自動淘汰較舊紀錄。
+- **提醒設定**：你設定的飲食提醒時間與模式僅用來排程本機通知。
+- **訂閱資料**：購買、付款與退款由 Apple App Store 處理。本 App 使用 RevenueCat 取得訂閱權益狀態與管理回復購買；本 App 不會取得或儲存你的信用卡或付款卡資料。
 
-## 3. 第三方服務
-- Apple（App Store）：交易流程與收據管理  
-- RevenueCat：訂閱管理、收據驗證與權益發放  
-- OpenAI（或其他 AI 供應商）：影像與文字分析、AI 生成  
+## 2. 權限與你的選擇
 
-## 4. 資料儲存與保留
-- **影像保存**：影像僅於分析期間暫存，完成後即刪除。  
-- **使用資料與日誌**：依營運需求保存合理期間，並以匿名或彙整形式保存。
+- **相機與相簿**：僅在你選擇拍照或選取照片時使用。你可隨時在 iOS「設定」撤回權限。
+- **Apple Health**：僅讀取你在 HealthKit 授權畫面允許的資料；未授權或撤回授權時，本 App 仍可使用，只是不會顯示相應健康同步結果。本 App 目前不會將餐點、營養或身體資料寫入 Apple Health。
+- **通知**：只有在你開啟提醒後，才會請求通知權限；可在 iOS 設定中關閉。
+- **本機資料**：你可在 App 內刪除已記錄的餐點；移除 App 會移除其沙盒中的本機資料。若需要協助處理與雲端分析請求相關的問題，請以本政策末列信箱聯絡我們。
 
-## 5. 你的權利
-- **存取與刪除**：可透過聯絡信箱請求刪除個人資料（若有）。  
-- **撤回同意**：可停止使用功能，或於系統設定撤回相機／相簿權限。
+## 3. 資料分享與第三方
 
-## 6. 兒童隱私
-本 App 非為 13 歲以下兒童設計。若兒童意外提供個人資料，請聯繫我們協助刪除。
+本 App 不販售你的個人資料，也不將資料用於個人化廣告。為提供功能，下列服務可能依各自政策處理必要資料：
 
-## 7. 資料安全
-我們採取合理的技術與管理措施保護資料，但無法保證 100% 安全。
+- **Apple**：App Store 購買與 HealthKit 權限／資料存取。
+- **RevenueCat**：訂閱產品、交易收據與權益狀態的處理。請參閱 [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)。
+- **雲端分析 API 與其受託 AI 供應商**：僅在你要求影像分析時，處理該次請求中的照片、辨識文字與必要脈絡以回傳分析結果。雲端傳輸使用 HTTPS。
 
-## 8. 聯絡我們
-若有疑問，請來信：eric1207cvb@msn.com
+Apple Health 資料不會用於廣告、行銷或出售。
 
----
+## 4. 保存、安全與跨境處理
 
-# 🤖 AI / ChatGPT 使用聲明（繁體中文）
+本機歷史資料的保留方式如第 1 節所述。影像與分析請求必須送往雲端 API 才能完成分析；因此資料可能在你所在國家／地區以外由該服務及其受託供應商處理。雖然我們採取合理的技術與管理措施保護資料，網路傳輸與儲存無法保證絕對安全。
 
-- 本 App 的 AI 功能可能使用第三方大型語言模型（如 OpenAI）。  
-- 你提供的影像與必要資訊僅用於 AI 分析，不用於個人化廣告。  
-- AI 產生之內容可能不完全準確或具偏差，僅供參考。  
-- 若不同意雲端分析，請勿使用相關功能，或於裝置設定撤回權限。
+## 5. 健康與兒童
+
+本 App 提供的是一般飲食與活動資訊，不是診斷、治療、處方或醫療建議。它不會從照片或感測器測量血糖、eGFR、血鉀或血磷，也不計算藥物劑量。本 App 不以 13 歲以下兒童為對象；如發現兒童提供資料，請聯絡我們。
+
+## 6. 政策變更與聯絡方式
+
+功能或資料作法變動時，我們會更新本頁日期與內容。若對資料、權限或刪除請求有疑問，請寄信至 [eric1207cvb@msn.com](mailto:eric1207cvb@msn.com)。
 
 ---
 
-# 📘 Privacy Policy (English)
+# Privacy Policy (English)
 
-This page explains how AICalorieEstimator (“the App”) collects, uses, protects, and shares your data. By using the App, you agree to this policy.
+This policy describes how AICalorieEstimator (the “App”) currently handles data. The App does not offer account registration, personalized advertising, or cross-app / cross-site tracking.
 
-## 1. Data We Collect
-- **User-provided images:** Photos you take or select for food recognition and calorie estimation.  
-- **Device & usage data:** Anonymized OS/app versions and usage logs for debugging and quality improvements.  
-- **Subscription & transaction data:** Handled by Apple’s App Store and RevenueCat. No credit card data is stored.
+## 1. Data sources and purposes
 
-## 2. How We Use Data
-- **Image analysis:** Images are sent to our servers and/or trusted AI services (e.g., OpenAI) to generate analysis results.  
-- **Service operation:** Anonymous usage data supports stability, debugging, and feature improvements.  
-- **Subscription management:** Determines eligibility for Pro features.
+- **Meal images and text:** A meal photo you take or choose, and text recognized on-device in that photo, are sent to the App’s cloud analysis API only after you request an analysis. They are used to estimate food, portions, and calories. The App does not write the original photo into its on-device meal history. Processing of a request by the analysis service and any AI provider it engages is governed by their service and privacy practices.
+- **Profile and health context:** Height, weight, goal weight, sex, activity settings, and—when you authorize Apple Health—steps, energy, exercise / workout, body-measurement, and other permitted health metrics are used to calculate goals and display trends and the momentum calendar. The App sends only the profile and activity context needed for a cloud image-analysis request when you choose to analyze an image. A routine Apple Health sync does not automatically upload your complete Health data.
+- **On-device food and trend history:** Confirmed meal summaries, calories, weight, steps, active energy, and exercise minutes are stored on your device for Today, reports, charts, and the momentum calendar. Local history is retained for up to three years, with older records pruned as newer records are saved.
+- **Reminder settings:** Meal-reminder times and modes are used only to schedule local notifications.
+- **Subscription data:** Apple App Store handles purchases, payment, and refunds. The App uses RevenueCat to obtain subscription-entitlement status and support restore purchases. The App does not receive or store credit-card or other payment-card details.
 
-## 3. Third-Party Services
-- Apple (App Store): purchase flows and receipt validation  
-- RevenueCat: subscription management and entitlements  
-- OpenAI (or similar): image/text analysis and AI generation  
+## 2. Permissions and your choices
 
-## 4. Storage & Retention
-- **Images:** Stored only for the duration of analysis and deleted afterward.  
-- **Usage/log data:** Retained in anonymized or aggregated form for a reasonable period.
+- **Camera and Photos:** Used only when you choose to take or select a meal image. You can revoke access at any time in iOS Settings.
+- **Apple Health:** The App reads only data types you approve in the HealthKit authorization screen. You can keep using the App if you decline or revoke access, but related synchronized views will not be available. The App currently does not write meal, nutrition, or body data to Apple Health.
+- **Notifications:** Notification permission is requested only when you turn on reminders and can be disabled in iOS Settings.
+- **Local data:** You can delete logged meals in the App. Removing the App removes data kept in its local sandbox. For questions about cloud analysis requests, contact us at the address below.
 
-## 5. Your Rights
-- **Access & deletion:** Contact us to request deletion of identifiable data (if any).  
-- **Withdraw consent:** Stop using features or revoke camera/photo permissions in OS settings.
+## 3. Sharing and third parties
 
-## 6. Children’s Privacy
-The App is not intended for children under 13. Contact us if data has been provided by a minor.
+We do not sell personal data or use it for personalized advertising. The following services may process data necessary to provide their functions under their own policies:
 
-## 7. Security
-We use reasonable measures to protect data but cannot guarantee 100% security.
+- **Apple:** App Store purchases and HealthKit permissions / data access.
+- **RevenueCat:** subscription products, transaction receipts, and entitlement status. See the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
+- **Cloud analysis API and its engaged AI providers:** process the image, recognized text, and required context in an analysis request only to return that analysis. Cloud requests are transmitted over HTTPS.
 
-## 8. Contact
-Email: eric1207cvb@msn.com
+Apple Health data is not used for advertising, marketing, or sale.
 
----
+## 4. Retention, security, and international processing
 
-# 🤖 AI / ChatGPT Usage Disclosure (English)
+Local-history retention is described in section 1. Images and analysis requests must be sent to the cloud analysis API to produce an analysis; therefore, they may be processed outside your country or region by that service and its engaged providers. We use reasonable technical and organizational safeguards, but no transmission or storage method is completely secure.
 
-- The App may use third-party AI services such as OpenAI.  
-- Your images and text are used only for analysis and not for personalized advertising.  
-- AI-generated output may be inaccurate or biased; use for reference only.  
-- If you object to cloud processing, do not use these features or disable permissions.
+## 5. Health information and children
+
+The App provides general food and activity information, not diagnosis, treatment, prescription, or medical advice. It does not measure glucose, eGFR, potassium, or phosphorus from photos or sensors, and it does not calculate medication doses. The App is not directed to children under 13. Please contact us if you believe a child has provided data.
+
+## 6. Changes and contact
+
+We will update this page and its date when our functionality or data practices change. For questions about data, permissions, or deletion, contact [eric1207cvb@msn.com](mailto:eric1207cvb@msn.com).
 
 ---
 
-# 📘 プライバシーポリシー（日本語）
+# プライバシーポリシー（日本語）
 
-本ページでは、AICalorieEstimator（以下「本アプリ」）がどのようにデータを収集・利用・保護・共有するかを説明します。本アプリを利用することで、本ポリシーに同意したものとみなします。
+本ポリシーは、AICalorieEstimator（以下「本アプリ」）における現在のデータの取扱いを説明します。本アプリにはアカウント登録機能、パーソナライズド広告、アプリやウェブサイトをまたぐトラッキングはありません。
 
-## 1. 収集するデータ
-- **ユーザーが提供する画像**：撮影または選択した写真を、食べ物認識やカロリー推定のために利用します。  
-- **端末情報・利用データ**：品質改善やデバッグのため、OS バージョン、アプリバージョン、基本的な利用ログを匿名化して収集する場合があります。  
-- **サブスクリプション情報**：Apple の App Store と RevenueCat により管理されます。本アプリはクレジットカード情報を保存しません。
+## 1. 取得するデータと利用目的
 
-## 2. データの利用目的
-- **画像解析**：提供された画像は、当社サーバーおよび／または信頼できる AI サービス（OpenAI など）で、食べ物認識やカロリー推定に使用されます。  
-- **サービス運営**：匿名化された利用データは、安定性向上、デバッグ、機能改善に使用されます。  
-- **サブスクリプション管理**：Pro 機能の利用可否を判定します。
+- **食事画像と文字**：撮影または選択した食事の写真と、その写真から端末上で認識した文字は、あなたが分析を実行した場合にのみ、食べ物・量・カロリーを推定するため本アプリのクラウド分析 API に送信されます。本アプリは元の写真を端末上の食事履歴には保存しません。分析サービスおよび同サービスが利用する AI 事業者によるリクエストデータの取扱いは、それぞれのサービスおよびプライバシーに関する方針に従います。
+- **プロフィールと健康の文脈**：身長、体重、目標体重、性別、活動設定、および Apple ヘルスケアで許可した歩数、消費エネルギー、エクササイズ／ワークアウト、身体測定値その他の健康指標は、目標計算、推移、モメンタムカレンダーの表示に利用します。画像分析をあなたが選択したときだけ、結果をあなたに合わせるために必要なプロフィールと活動の文脈をクラウド API に送信します。通常の Apple ヘルスケア同期によって、すべてのヘルスケアデータが自動でアップロードされることはありません。
+- **端末内の食事・推移履歴**：確定した食事の要約、カロリー、体重、歩数、アクティブエネルギー、運動時間は、「今日」、レポート、グラフ、モメンタムカレンダーのため端末内に保存されます。端末内の履歴は最長 3 年間保存され、新しい記録の保存時に古い記録が整理されます。
+- **リマインダー設定**：食事リマインダーの時刻とモードは、端末内通知のスケジュールにのみ使用します。
+- **サブスクリプションデータ**：購入、支払い、返金は Apple App Store が処理します。本アプリは RevenueCat を利用してサブスクリプションの権利状態を取得し、購入の復元を提供します。本アプリがクレジットカードその他の支払いカード情報を受け取ったり保存したりすることはありません。
 
-## 3. サードパーティサービス
-- Apple（App Store）：決済およびレシート管理  
-- RevenueCat：サブスクリプション管理  
-- OpenAI：画像／テキスト解析および AI 生成  
+## 2. 権限と選択肢
 
-## 4. データ保存と保持期間
-- **画像データ**：解析に必要な期間のみ保存され、解析後に削除されます。  
-- **利用ログ**：匿名化または集計された形式で合理的な期間保存します。
+- **カメラと写真**：食事画像を撮影または選択するときだけ使用します。iOS の「設定」からいつでも権限を取り消せます。
+- **Apple ヘルスケア**：HealthKit の許可画面で承認したデータ種別のみを読み取ります。拒否または取り消しても本アプリは利用できますが、対応する同期表示は利用できません。本アプリは現在、食事・栄養・身体データを Apple ヘルスケアへ書き込みません。
+- **通知**：リマインダーを有効にした場合にのみ通知の許可を求め、iOS の設定から無効にできます。
+- **端末内データ**：記録した食事は本アプリで削除できます。本アプリを削除すると、そのサンドボックス内に保存されたデータも削除されます。クラウド分析リクエストについては、下記までお問い合わせください。
 
-## 5. ユーザーの権利
-- **アクセス・削除請求**：識別可能なデータがある場合、削除を依頼できます。  
-- **同意撤回**：該当機能の使用停止、または OS の設定でカメラ／写真へのアクセス権限を無効にできます。
+## 3. 共有先と第三者サービス
 
-## 6. 子供のプライバシー
-本アプリは 13 歳未満の児童を対象としていません。誤って個人情報が提供された場合は連絡してください。
+当社は個人データを販売せず、パーソナライズド広告にも使用しません。機能提供のため、次のサービスが各自の方針に基づき必要なデータを処理する場合があります。
 
-## 7. データセキュリティ
-合理的な技術的・組織的手段を用いてデータを保護しますが、100％の安全性は保証できません。
+- **Apple**：App Store の購入、HealthKit の権限およびデータアクセス。
+- **RevenueCat**：サブスクリプション商品、取引レシート、権利状態。詳細は [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy) をご覧ください。
+- **クラウド分析 API とその委託 AI 事業者**：分析結果を返す目的に限り、分析リクエスト内の画像、認識文字、必要な文脈を処理します。クラウドへのリクエストは HTTPS で送信されます。
 
-## 8. お問い合わせ
-メール：eric1207cvb@msn.com
+Apple ヘルスケアのデータを広告、マーケティング、販売に使用することはありません。
 
----
+## 4. 保存期間、安全性、国際的な取扱い
 
-# 🤖 AI / ChatGPT 利用に関する声明（日本語）
+端末内履歴の保存については第 1 節をご覧ください。分析を行うには画像と分析リクエストをクラウド分析 API に送信する必要があるため、あなたの国・地域外で当該サービスおよびその委託先により処理される場合があります。合理的な技術的・組織的安全対策を講じますが、送信または保存の完全な安全性を保証することはできません。
 
-- 本アプリの AI 機能は、OpenAI などの第三者 AI サービスを利用する場合があります。  
-- 提供された画像やテキストは、解析目的のみに使用され、広告用途には利用しません。  
-- AI による結果は不正確な場合があり、参考情報としてご利用ください。  
-- クラウド解析を希望しない場合、該当機能を使用しないか、権限を無効にしてください。
+## 5. 健康情報と子どものプライバシー
 
----
+本アプリは一般的な食事・活動情報を提供するものであり、診断、治療、処方、医療上の助言ではありません。写真やセンサーから血糖値、eGFR、カリウム、リンを測定せず、薬剤量も計算しません。本アプリは 13 歳未満の児童を対象としていません。児童がデータを提供したと思われる場合はご連絡ください。
+
+## 6. 変更とお問い合わせ
+
+機能またはデータの取扱いが変わった場合、このページと更新日を改定します。データ、権限、削除に関するご質問は [eric1207cvb@msn.com](mailto:eric1207cvb@msn.com) までご連絡ください。
