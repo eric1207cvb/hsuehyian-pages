@@ -1,4 +1,4 @@
-# AICalorieEstimator 隱私權政策 / Privacy Policy / プライバシーポリシー
+# 隱私權政策 / Privacy Policy / プライバシーポリシー
 
 **最後更新｜Last updated｜最終更新日：2026-08-20**
 開發者｜Developer｜開発者：Hsueh Yi An  
